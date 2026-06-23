@@ -1,0 +1,24 @@
+Extract the full resume into a single JSON Resume object.
+
+--- Resume markdown starts here ---
+
+{{ text_content }}
+
+--- Resume markdown ends here ---
+
+Return ONLY valid JSON that conforms to the JSON Resume format. The top-level object may include any of these keys if present:
+- basics
+- work
+- volunteer
+- education
+- awards
+- certificates
+- publications
+- skills
+- languages
+- interests
+- references
+- projects
+- meta
+
+Each section should be null or the appropriate object/list. Do not include any explanation, markdown, or extra text.

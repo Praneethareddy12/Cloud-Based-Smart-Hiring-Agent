@@ -1,0 +1,34 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env*
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+dist/
+frontend/dist/
+frontend/.vite/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Project generated files
+cache/
+resume_evaluations.csv
+
+# IDE files
+.vscode/
+.idea/
+
+# PDFs (only if resumes should not be tracked)
+resume/*.pdf
+run/*.pdf
+greenhouse_resumes/*
